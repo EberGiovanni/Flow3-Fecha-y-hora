@@ -1,0 +1,39 @@
+[
+    {
+        "id": "1bbf9d9ce1454882",
+        "type": "ui_text",
+        "z": "73a273b9b787804d",
+        "group": "1f781b40662d1554",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Fecha y hora actual",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 690,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "1f781b40662d1554",
+        "type": "ui_group",
+        "name": "Fecha",
+        "tab": "c2c437838be37904",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c2c437838be37904",
+        "type": "ui_tab",
+        "name": "Flow 3 fecha y hora",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
